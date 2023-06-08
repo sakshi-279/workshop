@@ -1,0 +1,280 @@
+body
+{
+  font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,
+  "Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+font
+{
+  color: #29414b;
+}
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+.icon-bar a:hover {
+  background-color: #278eb3;
+}
+
+
+
+.facebook {
+    background: #3b5998;
+    color: white;
+  }
+
+  .twitter {
+    background: #00acee;
+    color: white;
+  }
+
+  .instagram {
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    color: white;
+  }
+
+  .linkedin {
+    background: #0e76a8;
+    color: white;
+  }
+.title
+{
+  height: 60px;
+  background-color: #278eb3;
+}
+div.background {
+ 
+    background: url(../images/Website_Announcement.jfif) no-repeat;
+    background-size: cover;
+    height: fit-content;
+    padding: 5rem;
+    border: none;
+  }
+  .about
+  {
+    margin-top: 10rem;
+  }
+  
+   div.transbox {
+  
+    background-image: linear-gradient(to right,#278eb3,#f8bc28);
+    height: fit-content;
+    padding: 5rem;
+    opacity: 0.8;
+  }
+  
+ 
+  
+  div.background1 {
+ 
+    background: url(../images/Website_Announcement.jfif) no-repeat;
+    background-size: cover;
+    height: fit-content;
+    
+    border: none;
+  }
+  
+  div.transbox1 {
+  
+    background-image: linear-gradient(to right,#278eb3,#f8bc28);
+    height: fit-content;
+    padding: 5rem;
+    opacity: 0.9;
+  }
+  
+  .btn
+  {
+    margin-top: 50px;
+    background-color: #F8BC28;
+    color: black;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-bottom: 20px;
+  }
+  .btn:hover
+  {
+  
+   background-color: #278eb3;
+  }
+  .btn a
+  {
+    color: black;
+    text-decoration: none;
+  }
+  .btn a:hover
+  {
+    color: white;
+    text-decoration: none;
+  }
+  .btn1
+  {
+    margin-top: 1rem;
+    background-color: #F8BC28;
+    color: black;
+    padding: 7px 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-bottom: 20px;
+  }
+  .btn1:hover
+  {
+  
+   background-color: #278eb3;
+  }
+  .btn1 a
+  {
+    color: black;
+    text-decoration: none;
+  }
+  .btn1 a:hover
+  {
+    color: white;
+    text-decoration: none;
+  }
+  .speaker
+  {
+    background-image: linear-gradient(to right,#278eb3,#f8bc28);
+    height: fit-content;
+    padding: 5rem;
+    
+  }
+  .s_p img
+  {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  }
+  .partner img
+  {
+    margin: 5rem;
+    height: 10rem;
+  }
+  .tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+  
+  }
+   .day1 button
+   {
+    width: 100%;
+    clip-path: polygon(0%0%, 100%0%, 95%100%, 0%100%);
+   }
+   .day2 button
+   {
+    width: 100%;
+    clip-path: polygon(5%0%, 100%0%, 100%100%, 0%100%);
+   }
+   
+
+    /* Style the buttons inside the tab */
+    .tab button {
+    background-color: inherit;
+    /* width: 50%; */
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;                                                             
+    font-size: 17px;
+    
+    }
+
+    /* Change background color of buttons on hover */
+    /* .tab button:hover {
+    background-color: #ddd;
+    } */
+
+    /* Create an active/current tablink class */
+    .day1 button.active {
+    background-color: #e95b1d;
+    color: #ffffff;
+    }
+
+    .day2 button.active {
+    background-color: #278eb3;
+    color: #ffffff;
+    }
+
+    /* Style the tab content */
+    .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    }
+  
+  .b1 
+  {
+    height: fit-content;
+    width: auto;
+    margin: 1rem;
+    border: none;
+    padding: 1rem;
+    box-shadow: 5px 7px 20px #888888;
+  }
+  .key_themes
+  {
+    height: fit-content;
+    background-color: #FFFFFF;
+  }
+  /* faqs */
+  .accordion {
+    background-color: #eee;
+    cursor: pointer;
+    padding: 3rem;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+   
+    transition: 0.4s; 
+  }
+  
+  .active, .accordion:hover {
+    background-color: gray;
+  }
+  
+  .accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .panel {
+    padding: 0 2rem;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  
